@@ -1,10 +1,19 @@
 # AI Customer Support Agent — Refunds
 
+**🔗 Live demo:** [ai-refund-support-agent-iota.vercel.app](https://ai-refund-support-agent-iota.vercel.app)
+([Customer Chat](https://ai-refund-support-agent-iota.vercel.app/) · [Admin Dashboard](https://ai-refund-support-agent-iota.vercel.app/admin))
+
 A full-stack Next.js app where an LLM-backed agent handles e-commerce refund
 requests: it looks up the customer, pulls the order, runs it through a
 deterministic refund-policy engine via tool calls, and approves, denies, or
 escalates the request accordingly. An admin dashboard shows the agent's
 reasoning — every tool call and result — live, per conversation.
+
+Try it live with the sample order IDs in the [table below](#try-these-order-ids) —
+e.g. open the chat and ask for a refund on `ORD-1001` (approved) or `ORD-1004`
+(denied, digital good), then watch the reasoning unfold in the
+[admin dashboard](https://ai-refund-support-agent-iota.vercel.app/admin) in a
+second tab.
 
 ## Why it's built this way
 
