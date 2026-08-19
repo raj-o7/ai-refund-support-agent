@@ -1,0 +1,287 @@
+[
+  {
+    "id": "CUST-001",
+    "name": "Aditi Sharma",
+    "email": "aditi.sharma@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1001",
+        "item": "Wireless Mechanical Keyboard",
+        "category": "electronics",
+        "price": 89.0,
+        "status": "delivered",
+        "orderDate": "2026-08-05",
+        "deliveryDate": "2026-08-10",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-002",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1002",
+        "item": "Running Shoes",
+        "category": "apparel",
+        "price": 64.5,
+        "status": "delivered",
+        "orderDate": "2026-07-01",
+        "deliveryDate": "2026-07-05",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-003",
+    "name": "Neha Gupta",
+    "email": "neha.gupta@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1003",
+        "item": "Blender 700W",
+        "category": "home-appliance",
+        "price": 45.0,
+        "status": "delivered",
+        "orderDate": "2026-07-06",
+        "deliveryDate": "2026-07-11",
+        "damaged": true,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-004",
+    "name": "Vikram Rao",
+    "email": "vikram.rao@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1004",
+        "item": "\"Mastering JavaScript\" E-Book",
+        "category": "digital-goods",
+        "price": 19.99,
+        "status": "delivered",
+        "orderDate": "2026-08-12",
+        "deliveryDate": "2026-08-12",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-005",
+    "name": "Priya Nair",
+    "email": "priya.nair@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1005",
+        "item": "Clearance Winter Jacket",
+        "category": "final-sale",
+        "price": 39.0,
+        "status": "delivered",
+        "orderDate": "2026-08-01",
+        "deliveryDate": "2026-08-06",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-006",
+    "name": "Karan Malhotra",
+    "email": "karan.malhotra@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1006",
+        "item": "55-inch 4K OLED TV",
+        "category": "electronics",
+        "price": 649.99,
+        "status": "delivered",
+        "orderDate": "2026-08-08",
+        "deliveryDate": "2026-08-12",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-007",
+    "name": "Simran Kaur",
+    "email": "simran.kaur@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1007",
+        "item": "Bluetooth Speaker",
+        "category": "electronics",
+        "price": 32.0,
+        "status": "delivered",
+        "orderDate": "2026-08-14",
+        "deliveryDate": "2026-08-17",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 3
+  },
+  {
+    "id": "CUST-008",
+    "name": "Arjun Verma",
+    "email": "arjun.verma@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1008",
+        "item": "Office Chair",
+        "category": "furniture",
+        "price": 120.0,
+        "status": "processing",
+        "orderDate": "2026-08-18",
+        "deliveryDate": null,
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-009",
+    "name": "Ananya Iyer",
+    "email": "ananya.iyer@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1009",
+        "item": "Yoga Mat",
+        "category": "fitness",
+        "price": 22.0,
+        "status": "cancelled",
+        "orderDate": "2026-08-10",
+        "deliveryDate": null,
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-010",
+    "name": "Rahul Kapoor",
+    "email": "rahul.kapoor@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1010",
+        "item": "Air Fryer",
+        "category": "home-appliance",
+        "price": 58.0,
+        "status": "delivered",
+        "orderDate": "2026-07-16",
+        "deliveryDate": "2026-07-21",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-011",
+    "name": "Divya Reddy",
+    "email": "divya.reddy@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1011",
+        "item": "$50 Gift Card",
+        "category": "gift-card",
+        "price": 50.0,
+        "status": "delivered",
+        "orderDate": "2026-08-15",
+        "deliveryDate": "2026-08-15",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-012",
+    "name": "Siddharth Joshi",
+    "email": "siddharth.joshi@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1012",
+        "item": "USB-C Charging Cable",
+        "category": "electronics",
+        "price": 12.99,
+        "status": "delivered",
+        "orderDate": "2026-08-13",
+        "deliveryDate": "2026-08-16",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-013",
+    "name": "Meera Pillai",
+    "email": "meera.pillai@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1013",
+        "item": "Desk Lamp",
+        "category": "home-appliance",
+        "price": 27.5,
+        "status": "returned",
+        "orderDate": "2026-07-20",
+        "deliveryDate": "2026-07-24",
+        "damaged": false,
+        "refunded": true
+      }
+    ],
+    "refundsLast90Days": 1
+  },
+  {
+    "id": "CUST-014",
+    "name": "Aryan Chopra",
+    "email": "aryan.chopra@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1014",
+        "item": "Coffee Maker",
+        "category": "home-appliance",
+        "price": 74.0,
+        "status": "delivered",
+        "orderDate": "2026-06-12",
+        "deliveryDate": "2026-06-16",
+        "damaged": true,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  },
+  {
+    "id": "CUST-015",
+    "name": "Ishita Bansal",
+    "email": "ishita.bansal@example.com",
+    "orders": [
+      {
+        "orderId": "ORD-1015",
+        "item": "Noise Cancelling Headphones",
+        "category": "electronics",
+        "price": 150.0,
+        "status": "delivered",
+        "orderDate": "2026-08-10",
+        "deliveryDate": "2026-08-15",
+        "damaged": false,
+        "refunded": false
+      }
+    ],
+    "refundsLast90Days": 0
+  }
+]
