@@ -15,6 +15,8 @@ e.g. open the chat and ask for a refund on `ORD-1001` (approved) or `ORD-1004`
 [admin dashboard](https://ai-refund-support-agent-iota.vercel.app/admin) in a
 second tab.
 
+![Admin dashboard showing the agent's tool-call trace for an approved refund](docs/demo.gif)
+
 ## Why it's built this way
 
 - **Raw function calling, no agent framework.** The loop in
