@@ -65,6 +65,15 @@ Admin dashboard (app/admin/page.js, components/AdminDashboard.js)
 polls GET /api/logs/[conversationId] every 1.5s and renders it live
 ```
 
+<details>
+<summary>Full dependency graph (auto-generated)</summary>
+
+![Knowledge graph of the codebase, color-coded by community: agent core loop, refund policy rules, admin dashboard UI, customer chat UI, and design rationale](docs/architecture-graph.svg)
+
+Generated from the actual source with [graphify](https://github.com/safishamsi/graphify) — AST-extracted call graph merged with concepts pulled from this README and the policy doc, then clustered into communities. Color = community, node size = connectivity. Not hand-drawn, so it reflects the real code, not the intended design.
+
+</details>
+
 **Data:** `data/customers.json` — 15 mock customers/orders covering every
 policy branch (standard eligible, past the 30-day window, damaged-item
 45-day extension, digital-goods/gift-card/final-sale non-refundable,
